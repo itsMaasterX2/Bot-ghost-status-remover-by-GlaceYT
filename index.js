@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Chilling on B0lck's lounge", "Chilling on B0lck's lounge"];
+const statusMessages = ["Chilling on B0lock's lounge", "Chilling on B0lock's lounge"];
 const statusTypes = [ 'idle', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
